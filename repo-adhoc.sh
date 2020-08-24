@@ -1,4 +1,4 @@
-cd ~/server/12/sources
+cd ~/workspace/odoo-dev/server/12/sources
 git clone --depth 1 --branch 12.0 --single-branch https://github.com/ingadhoc/account-analytic.git ingadhoc-account-analytic
 git clone --depth 1 --branch 12.0 --single-branch https://github.com/ingadhoc/account-financial-tools.git ingadhoc-account-financial-tools
 git clone --depth 1 --branch 12.0 --single-branch https://github.com/ingadhoc/account-payment.git ingadhoc-account-payment
@@ -21,10 +21,10 @@ git clone --depth 1 --branch 12.0 --single-branch https://github.com/ingadhoc/re
 git clone --depth 1 --branch 12.0 --single-branch https://github.com/ingadhoc/sale.git ingadhoc-sale
 git clone --depth 1 --branch 12.0 --single-branch https://github.com/ingadhoc/stock.git ingadhoc-stock
 git clone --depth 1 --branch 12.0 --single-branch https://github.com/ingadhoc/website.git ingadhoc-website
-#cd ~/server/12/sources
+#cd ~/workspace/odoo-dev/server/12/sources
 #find . -name "oca_dependencies.txt" -type f -delete
-#cd ~/server/12/
+#cd ~/workspace/odoo-dev/server/12/
 #sources bin/activate
-#cd ~/server/12
+#cd ~/workspace/odoo-dev/server/12
 #./maintainer-quality-tools/travis/clone_oca_dependencies sources/ .
-#find ~/server/12/sources -mindepth 1 -maxdepth 1 -type d | sort | tr '\n' ','
+#find ~/workspace/odoo-dev/server/12/sources -mindepth 1 -maxdepth 1 -type d | sort | tr '\n' ','

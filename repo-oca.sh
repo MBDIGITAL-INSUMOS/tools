@@ -1,4 +1,4 @@
-cd ~/server/12/sources
+cd ~/workspace/odoo-dev/server/12/sources
 git clone --depth 1 --branch 12.0 --single-branch https://github.com/OCA/account-analytic.git OCA-account-analytic
 git clone --depth 1 --branch 12.0 --single-branch https://github.com/OCA/account-closing.git OCA-account-closing
 git clone --depth 1 --branch 12.0 --single-branch https://github.com/OCA/account-consolidation.git OCA-account-consolidation
@@ -59,10 +59,10 @@ git clone --depth 1 --branch 12.0 --single-branch https://github.com/OCA/web.git
 #git clone --depth 1 --branch 12.0 --single-branch https://github.com/OCA/website-themes.git OCA-website-themes
 git clone --depth 1 --branch 12.0 --single-branch https://github.com/OCA/website.git OCA-website
 git clone --depth 1 --branch 12.0 --single-branch https://github.com/OCA/contract.git OCA-contract
-#cd ~/server/12/sources
+#cd ~/workspace/odoo-dev/server/12/sources
 #find . -name "oca_dependencies.txt" -type f -delete
-#cd ~/server/12/
+#cd ~/workspace/odoo-dev/server/12/
 #sources bin/activate
-#cd ~/server/12
+#cd ~/workspace/odoo-dev/server/12
 #./maintainer-quality-tools/travis/clone_oca_dependencies sources/ .
-#find ~/server/12/sources -mindepth 1 -maxdepth 1 -type d | sort | tr '\n' ','
+#find ~/workspace/odoo-dev/server/12/sources -mindepth 1 -maxdepth 1 -type d | sort | tr '\n' ','
